@@ -12,6 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(file);
 
         System.out.println("new line");
+        int x=5 ;
         System.out.println("line 2");
 
         int numberOfGames = scanner.nextInt();

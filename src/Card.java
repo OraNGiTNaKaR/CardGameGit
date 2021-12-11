@@ -30,6 +30,7 @@ public class Card {
         if (cardNum == other.cardNum)
             return 0;
 
+
     }
 
     public String toString() {

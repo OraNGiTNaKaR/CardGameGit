@@ -11,6 +11,8 @@ public class Main {
         File file = new File(filePath);
         Scanner scanner = new Scanner(file);
 
+        System.out.println("new line");
+
         int numberOfGames = scanner.nextInt();
 
         for (int i = 0; i < numberOfGames; i++) {

@@ -1,9 +1,15 @@
 public class Suit {
+    SPADE("♠"), HEART("♥"), DIAMOND("♦"), CLUB("♣");
 
-//    SPADES("\u2660\uFE0F"),
-//    HEARTS("\u2665\uFE0F"),
-//    DIAMONDS("\u2666\uFE0F"),
-//    CLUBS("\u2663\uFE0F")
-//    ;
 
+
+    private final String symbol;
+
+    Suit(String symbol){
+        this.symbol = symbol;
+    }
+
+    public String getSymbol(){
+        return symbol;
+    }
 }
